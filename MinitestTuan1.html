@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CVcá nhân</title>
+    <style>
+        img {
+            border-radius:50%;
+            -moz-border-radius:50%;
+            -webkit-border-radius:50%;
+        }
+        form{
+            width: 500px;
+            height: 300px;
+            background-color: aqua;
+            border: 1px solid;
+        }
+
+        .title1{
+            color: blue;
+            text-align: right;
+        }
+        .title2{
+            text-align: left;
+            padding-left: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+</head>
+<body style="text-align: center">
+<h2>CV cá nhân</h2>
+<img src="anh.jpg" height="177" width="284"alt="Không hiển thị"
+/>
+<h3>Họ và tên: Nguyễn Ngọc Hà</h3>
+<h3>Tuổi:30</h3>
+<h3>Số điện thoại:0378256432</h3>
+<h3>Địa chỉ: Hà Đông, Hà Nội</h3>
+<h3>Lớp:CT20HK</h3>
+
+<form>
+    <table>
+        <tr>
+            <th colspan="2">Biểu mẫu đăng ký</th>
+
+        </tr>
+        <tr>
+            <td class="title1">Tên:</td>
+            <td class="title2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="title1">Tuổi:</td>
+            <td class="title2">
+                <select name="tuoi" id="tuoi">
+                    <option value="20">0&rarr;10</option>
+                    <option value="20">10&rarr;20</option>
+                    <option value="20">20&rarr;50</option>
+                    <option value="20">50&rarr;100</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="title1">Giới tính:</td>
+            <td class="title2"><input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="title1">Số điện thoại:</td>
+            <td class="title2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="title1">Email:</td>
+            <td class="title2"><input type="email"></td>
+        </tr>
+        <tr>
+            <td class="title1">Địa chỉ:</td>
+            <td class="title2"><textarea name="địa chỉ" id="địa chỉ" cols="30" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td class="title1">Account:</td>
+            <td class="title2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="title1">Password:</td>
+            <td class="title2"><input type="password"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="title2">
+                <input type="submit" value="Gửi">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+
+</form>
+<table>
+
+</table>
+</body>
+</html>
